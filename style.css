@@ -1,0 +1,38 @@
+body{
+    overflow: hidden;
+}
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.image-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;  
+}
+.image-bg{
+ background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  -webkit-transition: all 700ms ease-in;
+}
+
+.active{
+    border-radius: 20px;
+    height: 80vh;
+    width: 50%;
+   
+}
+.non-active{
+    border-radius: 50px;
+    height: 80vh;
+    width: 10%;
+}
