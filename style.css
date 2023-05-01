@@ -22,12 +22,12 @@ body{
   color: #fff;
   cursor: pointer;
   margin: 10px;
-  width: 50%;
+  width: 10%;
   -webkit-transition: all 700ms ease-in;
 }
 
 .active{
     border-radius: 50px;
     height: 80vh;
-    width: 10%;
+    width: 50%;
 }
